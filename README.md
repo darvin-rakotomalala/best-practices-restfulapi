@@ -39,11 +39,11 @@ En général, une conception d'API efficace aura les caractéristiques suivantes
 - Complet et concis
 
 Voici quelques recommandations générales :
-- 𝗨𝘀𝗲 𝗻𝗼𝘂𝗻𝘀 𝗶𝗻𝘀𝘁𝗲𝗮𝗱 𝗼𝗳 𝘃𝗲𝗿𝗯𝘀
-- 𝗨𝘀𝗲 𝗽𝗹𝘂𝗿𝗮𝗹 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲 𝗻𝗼𝘂𝗻𝘀 
+- Utilisez des noms plutôt que des verbes
+- Utiliser des noms de ressources au pluriel 
 - Être cohérent
-- 𝗞𝗲𝗲𝗽 𝗶𝘁 𝘀𝗶𝗺𝗽𝗹𝗲
-- 𝗨𝘀𝗲 𝗽𝗿𝗼𝗽𝗲𝗿 𝘀𝘁𝗮𝘁𝘂𝘀 𝗰𝗼𝗱𝗲𝘀
+- Rester simple
+- Utiliser les codes d'état appropriés
 	- 200 pour succès général
 	- 201 pour création réussie
 	- 202 (Accepté)
@@ -52,11 +52,11 @@ Voici quelques recommandations générales :
 	- 403 pour autorisations manquantes
 	- 404 pour ressources manquantes
 	- 5xx pour erreurs internes
-- 𝗗𝗼𝗻'𝘁 𝗿𝗲𝘁𝘂𝗿𝗻 𝗽𝗹𝗮𝗶𝗻 𝘁𝗲𝘅𝘁
+- Ne pas renvoyer de texte brut
 - Noms d'attributs en camelCase
 - Mettez les données en cache pour améliorer les performances
-- 𝗗𝗼 𝗽𝗿𝗼𝗽𝗲𝗿 𝗲𝗿𝗿𝗼𝗿 𝗵𝗮𝗻𝗱𝗹𝗶𝗻𝗴
-- 𝗛𝗮𝘃𝗲 𝗴𝗼𝗼𝗱 𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗲𝘀
+- Faire une bonne gestion des erreurs
+- Avoir de bonnes pratiques de sécurité
 	- Utilisez OAuth2 pour sécuriser votre API.
 	- Utilisez un jeton Bearer à expiration automatique pour l'authentification ( Authorisation: Bearer f0ca4227-64c4-44e1-89e6-b27c62ac2eb6).
 	- Exiger HTTPS.
