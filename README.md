@@ -1,4 +1,4 @@
-## Bonnes pratiques Restful API | Java | Spring Boot
+## Bonnes pratiques Restful API Java | Spring Boot
 Dans ce repo, je vous partage quelques bonnes pratiques Restful API Java | Spring Boot.
 
 *Notez que je suis toujours dans le processus d'apprentissage - probablement sans fin :)-*
